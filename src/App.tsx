@@ -24,12 +24,11 @@ function App() {
         <p className="text-2xl text-[#264653] mb-10 mx-auto font-medium leading-relaxed">
           Ask AI Chat - The Chrome extension to boost your productivity
         </p>
-
         {/* Video Section */}
         <div className="relative w-full max-w-3xl mx-auto mb-12 rounded-2xl overflow-hidden border-8 border-[#9ddfe6] shadow-[0_20px_50px_-15px_rgba(157,223,230,0.5)]">
           <iframe
             className="w-full aspect-video"
-            src="https://www.youtube.com/embed/_3opboyfkPs?autoplay=1&loop=1&controls=1&playlist=_3opboyfkPs&modestbranding=1&mute=1&rel=0"
+            src="https://www.youtube.com/embed/_3opboyfkPs?autoplay=1&loop=1&playlist=_3opboyfkPs&modestbranding=1&mute=1&rel=0&cc_load_policy=0"
             allow="autoplay"
             frameBorder="0"
           ></iframe>
