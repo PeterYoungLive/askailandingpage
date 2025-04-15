@@ -10,9 +10,15 @@ function App() {
     <div className="min-h-screen bg-[#9ddfe6] bg-opacity-20">
       {/* Background Pattern */}
       <div className="fixed inset-0" style={{
-        backgroundImage: `linear-gradient(#9ddfe6 1.5px, transparent 1.5px), linear-gradient(to right, #9ddfe6 1.5px, transparent 1.5px)`,
+        backgroundImage: `linear-gradient(#9ddfe6 2px, transparent 1.5px), linear-gradient(to right, #9ddfe6 2px, transparent 1.5px)`,
         backgroundSize: '50px 50px',
-        opacity: 0.3,
+        opacity: 0.5,
+        zIndex: -1
+      }} />
+      
+      {/* Center Shadow/Vignette */}
+      <div className="fixed inset-0 flex items-center justify-center pointer-events-none" style={{
+        background: 'radial-gradient(circle at center, rgba(157, 223, 230, 0.8) 20%, transparent 50%)',
         zIndex: -1
       }} />
       
@@ -22,7 +28,7 @@ function App() {
           Click less. Browse faster. Save time.
         </h1>
         <p className="text-2xl text-[#264653] mb-10 mx-auto font-medium leading-relaxed">
-          Ask AI Chat - The Chrome extension to boost your productivity
+          BrowseFast - Ask AI Chat - Now in Chrome Web Store
         </p>
         {/* Video Section */}
         <div className="relative w-full max-w-3xl mx-auto mb-12 rounded-2xl overflow-hidden border-8 border-[#9ddfe6] shadow-[0_20px_50px_-15px_rgba(157,223,230,0.5)]">
